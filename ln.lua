@@ -21,7 +21,7 @@ local register_event = function (PROJECT_CODE, PROJECT_SECRET, name, email, even
         ['person[name]'] = name,
         ['person[email]'] = email,
         ['person[external_identifier]'] = id,
-        ['person[properties][created_at]'] = os.time()
+        ['person[properties][created_at]'] = os.time(),
         ['event[name]'] = event,
         ['event[klass]'] = 'actionevent'
     }
