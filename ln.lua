@@ -1,4 +1,4 @@
-local HOST = 'https://lessneglect.com/api/v2/%s'
+local HOST = 'https://api.lessneglect.com/api/v2/%s'
 
 local log_event = function (PROJECT_CODE, PROJECT_SECRET, name, email, event)
     local event = {
